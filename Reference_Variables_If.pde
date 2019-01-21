@@ -10,6 +10,7 @@ size(500,500);
 
 void draw() {
 background(0);
+frameRate(5);
 fill(random(255),random(255),random(255));
 ellipse(X,Y,200,200);
 X=X+Boi;
@@ -19,6 +20,7 @@ if(X>width-0 || X<0)
   Boi=Boi*(-1);
  }
 
+frameRate(5);
 fill(random(255),random(255),random(255));
 ellipse(100,100,X,Y);
 
