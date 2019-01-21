@@ -5,7 +5,7 @@ int Y = 70;
 int Boi = 10;
 
 void setup() {
-frameRate(5);
+frameRate(10);
 size(500,500);
 }
 
